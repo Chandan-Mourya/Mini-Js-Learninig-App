@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/index.js"></script>
+    <title>JS Learning App</title>
+    <style>
+      #buttons{
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      #buttons > button{
+        padding: 15px 15px;
+        background-color: teal;
+        color: white;
+        border-radius: 15px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div id="buttons">
+      <!--Create buttons namely “Scope”, “Hoisting”, ‘Constructor Functions’, ‘Prototype’ in index.html. Each button will have it's respective name as HTML id. For e.g Scope button will HTML id as "scope". ( Note: no capital letter in id )-->
+    
+    <button id="scope" onclick="scopeFunction()"> Scope </button>
+    <button id="hosting" onclick="hostingFun()"> Hosting</button>
+    <button id="constructor" onclick="constructorFun()"> Constructor</button>
+    <button id="prototype" onclick="prototypeFun()"> Prototype</button>
+    
+    </div>
+
+    <div id="showdata">
+
+    </div>
+
+    
+  </body>
+</html>
